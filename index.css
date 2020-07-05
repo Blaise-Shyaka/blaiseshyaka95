@@ -9,11 +9,12 @@ body{
 .container {
     width: 90%;
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 1340px;
 }
 
 .introduction {
     margin-top: 1.3rem;
+    margin-bottom: 2rem;
     min-height: 80vh;
     max-height: 98vh;
     text-align: center;
@@ -91,10 +92,6 @@ li span {
     margin-top: -1rem;
 }
 
-nav {
-    display: none;
-}
-
 .project {
     background-color: #202022;
     padding: 1rem;
@@ -121,21 +118,21 @@ a {
 
 .view-page, .view-codepen {
     background-image: linear-gradient(0deg,#ff8a00,#e52e71);
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.7rem;
     font-size: 1rem;
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
 }
 
-.view-github {
+.view-github, .read-more {
     border: 2px solid #aaa;
-    padding: 0.1rem 1rem;
+    padding: 0.1rem 0.7rem;
     color: #aaa;
     border-radius: 5px;
 }
 
-.view-github:hover {
+.view-github:hover, .read-more:hover {
     background-color: #aaa;
     color: #202022;
     border: 2px solid #aaa;
@@ -152,4 +149,82 @@ a {
 
 .blog-section {
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
+
+@media only screen and (min-width: 500px) {
+    .container {
+      width: 60%;
+    }
+  }
+
+@media only screen and (min-width: 800px) {
+    .container {
+      display: flex;
+      width: 95%;
+      justify-content: space-between; 
+    }
+
+    .introduction, .projects-articles-display {
+        width: 45%;
+    }
+
+    .introduction {
+        position: fixed;
+    }
+
+    .introduction h1 {
+        font-size: 4rem;
+    }
+
+    .social-media {
+        width: 50%;
+        margin: 1rem auto;
+    }
+
+    .scroll-down {
+        display: none;
+    }
+
+    .header {
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .projects-articles-display {
+        margin-top: 3.5rem;
+        margin-left: 55%;
+    }
+
+    .project {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .description, .title {
+        display: none;
+    }
+
+    .back {
+        text-align: center;
+    }
+
+    .screenshot {
+        width: 50%;
+    }
+
+    .links {
+        margin: 0.3rem auto;
+        width: 70%;
+    }
+
+    .view-github, .view-page, .view-codepen {
+        font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .introduction {
+      left: 7%;
+    }
+  }

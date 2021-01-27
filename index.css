@@ -40,6 +40,10 @@ li {
   font-size: 200%;
 }
 
+a {
+  text-decoration: none;
+}
+
 li a {
   color: #888;
   transition: color 0.5s;
@@ -111,10 +115,6 @@ li span {
 .description,
 .tech-stack {
   font-size: 1rem;
-}
-
-a {
-  text-decoration: none;
 }
 
 .view-page,

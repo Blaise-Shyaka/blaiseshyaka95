@@ -57,8 +57,12 @@ li span {
   margin-left: 0.3rem;
 }
 
-.logo-linkedin:hover {
+.logo-linkedin {
   color: #0e76a8;
+}
+
+.logo-linkedin:hover {
+  color: #3bc1ff;
 }
 
 .logo-github:hover {
@@ -154,6 +158,11 @@ li span {
 .blog-section {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+#call-action {
+  font-size: 1.2rem;
+  padding: 0.5rem 3rem;
 }
 
 @media only screen and (min-width: 500px) {

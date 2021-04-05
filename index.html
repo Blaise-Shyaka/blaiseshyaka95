@@ -1,150 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blaise Pascal SHYAKA</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_OCLO3gw6iIfN984kIeq3o");
+      })();
+    </script>
+  </head>
+  <body>
     <div class="container">
-        <section class="introduction">
-            <h1>Hello! <br> My name is Blaise P. SHYAKA</h1>
-            <section class="social-media">
-                <li>
-                    <a class="logo-github" href="https://github.com/Blaise-Shyaka" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon><span>Github</span></a>
-                </li>
-                <li>
-                    <a class="logo-linkedin" href="https://www.linkedin.com/in/blaise-pascal-shyaka-b1340b111/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon><span>LinkedIn</span></a>
-                </li>
-            </section>
-            <section class="bio-email">
-                <p class="bio">I am a full-stack software developer! </p>
-                <p class="email"><i class="material-icons">email</i> <span>blaiseshyaka95@gmail.com</span></p>
-            </section>
-            <section class="scroll-down">
-                <i class="material-icons">keyboard_arrow_down</i>
-                <i class="material-icons" id="lower-arrow-one">keyboard_arrow_down</i>
-                <i class="material-icons" id="lower-arrow-two">keyboard_arrow_down</i>
-            </section>
+      <section class="introduction">
+        <h1>
+          Hello! <br />
+          My name is Blaise P. SHYAKA
+        </h1>
+        <section class="social-media">
+          <li>
+            <a
+              class="logo-github"
+              href="https://github.com/Blaise-Shyaka"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><ion-icon name="logo-github"></ion-icon><span>Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              class="logo-linkedin"
+              href="https://www.linkedin.com/in/blaise-pascal-shyaka-b1340b111/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><ion-icon name="logo-linkedin"></ion-icon
+              ><span>LinkedIn</span></a
+            >
+          </li>
         </section>
+        <section class="bio-email">
+          <p class="bio">
+            I am a full-stack software developer, currently attending the
+            Microverse program. I am looking for opportunities. If you like my
+            work, please reach out to me down below.
+          </p>
+          <p class="email">
+            <i class="material-icons">email</i>
+            <span>blaiseshyaka95@gmail.com</span>
+          </p>
+          <p id="flash-message"></p>
+          <form id="email-me">
+            <input type="text" name="from_name" placeholder="Your Name" id="form-name"/>
+            <br />
+            <input type="email" name="reply_to" placeholder="Your Email" id="form-email"/>
+            <br />
+            <textarea name="message" placeholder="Message (Required)" id="form-message" required></textarea>
+            <br />
+            <input type="submit" value="Email Me!" class="view-page" id="call-action"/>
+          </form>
+        </section>
+        <section class="scroll-down">
+          <i class="material-icons">keyboard_arrow_down</i>
+          <i class="material-icons" id="lower-arrow-one">keyboard_arrow_down</i>
+          <i class="material-icons" id="lower-arrow-two">keyboard_arrow_down</i>
+        </section>
+      </section>
 
-        <section class="projects-articles-display">
-            <div class="display">
-                <div class="header">
-                    <h1>PROJECTS</h1>
-                    <hr>
-                </div>
-                <section class="projects">
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/politico.png" alt="politico home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">Politico</h2>
-                            <p class="description">Politico enables citizens vote for politicians running for various government offices.</p>
-                            <p class="tech-stack">HTML | CSS | Node JS | PostgreSQL</p>
-                        </section>
-                        <section class="links">
-                            <a href="https://blaise-shyaka.github.io/Politico/templates/" target="_blank" rel="noopener noreferrer" class="view-page">View site</a>
-                            <a href="https://github.com/Blaise-Shyaka/Politico" target="_blank" rel="noopener noreferrer" class="view-github">View on Github</a>
-                        </section>
-                    </div>
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/announceit.png" alt="announceit home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">AnnounceIT</h2>
-                            <p class="description">AnnounceIT is a solution enabling broadcasting agencies to receive and manage announcements.</p>
-                            <p class="tech-stack">HTML | CSS | Node JS | PostgreSQL</p>
-                        </section>
-                        <section class="links">
-                            <a href="https://blaise-shyaka.github.io/AnnounceIT/templates/" target="_blank" rel="noopener noreferrer" class="view-page">View site</a>
-                            <a href="https://github.com/Blaise-Shyaka/AnnounceIT" target="_blank" rel="noopener noreferrer" class="view-github">View on Github</a>
-                        </section>
-                    </div>
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/drum-kit.png" alt="Drum kit home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">Drum kit</h2>
-                            <p class="description">Play a drum with your keyboard.</p>
-                            <p class="tech-stack">HTML | CSS | JS</p>
-                        </section>
-                        <section class="links">
-                            <a href="https://blaise-shyaka.github.io/drum-kit/" target="_blank" rel="noopener noreferrer" class="view-page">View site</a>
-                            <a href="https://github.com/Blaise-Shyaka/drum-kit" target="_blank" rel="noopener noreferrer" class="view-github">View on Github</a>
-                        </section>
-                    </div>
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/politico.png" alt="Politico home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">Politico-React</h2>
-                            <p class="description">An experimental version of the politico app developed with React JS</p>
-                            <p class="tech-stack"> | React JS | </p>
-                        </section>
-                        <section class="links">
-                            <a href="https://github.com/Blaise-Shyaka/politico-react" target="_blank" rel="noopener noreferrer" class="view-github">View on Github</a>
-                        </section>
-                    </div>
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/palindrome-checker.png" alt="palindrome checker home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">Palindrome checker</h2>
-                            <p class="description">Palindrome checker is a tool used to check if a word is a palindrome.</p>
-                            <p class="tech-stack">HTML | CSS | JS</p>
-                        </section>
-                        <section class="links">
-                            <a href="https://codepen.io/blaise-shyaka/pen/rXVxXd" target="_blank" rel="noopener noreferrer" class="view-codepen">View on CodePen</a>
-                        </section>
-                    </div>
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/city-info.png" alt="City info home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">City Info</h2>
-                            <p class="description">City Info allows users to check the demographic data of US cities.</p>
-                            <p class="tech-stack">HTML | CSS | JS</p>
-                        </section>
-                        <section class="links">
-                            <a href="https://codepen.io/blaise-shyaka/pen/yLLEzZz" target="_blank" rel="noopener noreferrer" class="view-codepen">View on CodePen</a>
-                        </section>
-                    </div>
-                    <div class="project card">
-                        <section class="front">
-                            <img class="screenshot" src="./screenshots/lottery-app.png" alt="Lottery app home page">
-                        </section>
-                        <section class="back">
-                            <h2 class="title">Lottery App</h2>
-                            <p class="description">Play the lottery with Lottery App!</p>
-                            <p class="tech-stack">HTML | CSS | JS</p>
-                        </section>
-                        <section class="links">
-                            <a href="https://codepen.io/blaise-shyaka/pen/eYNBPdR" target="_blank" rel="noopener noreferrer" class="view-codepen">View on CodePen</a>
-                        </section>
-                    </div>
-                </section>
-                
-                <section class="blog-section">
-                    <h1>BLOG</h1>
-                    <hr>
-                    <div class="blog">
-                        <h3>How I demonstrated a growth mindset recently</h3>
-                        <a href="https://medium.com/@blaiseshyaka95/how-i-demonstrated-a-growth-mindset-recently-159687011a10" target="_blank" rel="noopener noreferrer" class="read-more">Read more</a>
-                    </div>
-                </section>
+      <section class="projects-articles-display">
+        <div class="display">
+          <div class="header">
+            <h1>PROJECTS</h1>
+            <hr />
+          </div>
+          <section class="projects"></section>
+
+          <section class="blog-section">
+            <h1>BLOG</h1>
+            <hr />
+            <div class="blog">
+              <h3>How I demonstrated a growth mindset recently</h3>
+              <a
+                href="https://medium.com/@blaiseshyaka95/how-i-demonstrated-a-growth-mindset-recently-159687011a10"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="read-more"
+                >Read more</a
+              >
             </div>
-        </section>
+          </section>
+        </div>
+      </section>
     </div>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="./index.js"></script>
-</body>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>

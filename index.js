@@ -75,3 +75,13 @@ const displayAllProjects = (listOfProjects) => {
 }
 
 projectDisplay.innerHTML = displayAllProjects(myProjects)
+
+document.getElementById('email-me').addEventListener('submit', function(event) {
+  event.preventDefault();
+  emailjs.sendForm('email_me', 'email_me', this)
+      .then(function() {
+          console.log('SUCCESS!');
+      }, function(error) {
+          console.log('FAILED...', error);
+      });
+});

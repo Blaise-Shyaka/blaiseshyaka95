@@ -166,7 +166,8 @@ li span {
   border: none;
 }
 
-input, textarea {
+input,
+textarea {
   border: none;
   outline: none;
   width: 70%;
@@ -259,7 +260,8 @@ input, textarea {
     font-size: 0.8rem;
   }
 
-  input, textarea {
+  input,
+  textarea {
     width: 40%;
   }
 }

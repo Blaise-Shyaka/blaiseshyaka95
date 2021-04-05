@@ -78,7 +78,7 @@ li span {
   color: #aaa;
   font-size: 1.3rem;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .email span {
@@ -163,6 +163,16 @@ li span {
 #call-action {
   font-size: 1.2rem;
   padding: 0.5rem 3rem;
+  border: none;
+}
+
+input, textarea {
+  border: none;
+  outline: none;
+  width: 70%;
+  padding: 0.3rem 1rem;
+  margin-bottom: 0.3rem;
+  border-radius: 3px;
 }
 
 @media only screen and (min-width: 500px) {
@@ -188,7 +198,7 @@ li span {
   }
 
   .introduction h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .social-media {
@@ -206,7 +216,7 @@ li span {
   }
 
   .projects-articles-display {
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     margin-left: 55%;
   }
 
@@ -237,6 +247,10 @@ li span {
   .view-page,
   .view-codepen {
     font-size: 0.8rem;
+  }
+
+  input, textarea {
+    width: 40%;
   }
 }
 

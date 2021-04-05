@@ -12,11 +12,11 @@ blaiseshyaka95 is my portfolio project. I showcase projects that I am proud of h
 
 ## Live Demo
 
-[View live version](https://rawcdn.githack.com/Blaise-Shyaka/blaiseshyaka95/homepage/index.html)
+[View live version](https://blaise-shyaka.github.io/blaiseshyaka95/)
 
 ## Setup
 
-- Git clone [this repository](https://github.com/Blaise-Shyaka/FindEvent.git)
+- Git clone [this repository](https://github.com/Blaise-Shyaka/blaiseshyaka95.git)
 - Open `index.html` with your default browser.
 
 ## Authors

@@ -78,10 +78,32 @@ projectDisplay.innerHTML = displayAllProjects(myProjects)
 
 document.getElementById('email-me').addEventListener('submit', function(event) {
   event.preventDefault();
+  const flashMessageDisplay = document.querySelector('#flash-message');
+
   emailjs.sendForm('email_me', 'email_me', this)
       .then(function() {
           console.log('SUCCESS!');
+          flashMessageDisplay.classList.add('success');
+          flashMessageDisplay.innerHTML = 'Email sent successfully!';
+          setTimeout(() => {
+            flashMessageDisplay.innerHTML = '';
+            clearMailForm();
+            flashMessageDisplay.classList.remove('success');
+          }, 5000)
       }, function(error) {
           console.log('FAILED...', error);
+          flashMessageDisplay.classList.add('failure');
+          flashMessageDisplay.innerHTML = 'Failed to send email'
+          setTimeout(() => {
+            flashMessageDisplay.innerHTML = '';
+            clearMailForm();
+            flashMessageDisplay.classList.remove('failure');
+          }, 5000)
       });
 });
+
+const clearMailForm = () => {
+  document.querySelector('#form-name').value = '';
+  document.querySelector('#form-email').value = '';
+  document.querySelector('#form-message').value = '';
+}

@@ -175,6 +175,16 @@ input, textarea {
   border-radius: 3px;
 }
 
+.success {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.failure {
+  color: #dc3545;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 500px) {
   .container {
     width: 60%;

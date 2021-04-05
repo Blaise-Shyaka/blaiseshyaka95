@@ -21,9 +21,9 @@ body {
 }
 
 .introduction h1 {
-  margin-top: 4rem;
-  font-size: 1.7rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .social-media {
@@ -32,7 +32,7 @@ body {
 }
 
 .bio {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 li {
@@ -209,7 +209,7 @@ textarea {
   }
 
   .introduction h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .social-media {
@@ -226,8 +226,12 @@ textarea {
     margin: 0 auto;
   }
 
+  .bio {
+    font-size: 1.3rem;
+  }
+
   .projects-articles-display {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 55%;
   }
 

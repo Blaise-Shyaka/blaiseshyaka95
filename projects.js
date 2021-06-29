@@ -8,6 +8,22 @@ export const myProjects = [
     stack: 'Ruby on Rails'
   },
   {
+    projectName: 'Sky Battle',
+    description: 'Sky-Battle is a shooter game developed using phaser. A player uses a super-helicopter to bring down enemy jets. The game is developed specifically for the web.',
+    repository: 'https://github.com/Blaise-Shyaka/sky-battle',
+    liveLink: 'https://blaise-shyaka.github.io/sky-battle/build/index.html',
+    screenshotSource: './screenshots/sky-battle.png',
+    stack: 'Javascript | Phaser JS'
+  },
+  {
+    projectName: 'CookBook',
+    description: 'CookBook allows you to search for meals, view ingredients, as well as preparation instructions. It also provides the ability to filter meals by Category, Area, and/or Ingredients.',
+    repository: 'https://github.com/Blaise-Shyaka/cookbook',
+    liveLink: 'https://relaxed-yonath-f0b0e7.netlify.app/',
+    screenshotSource: './screenshots/cookbook.png',
+    stack: 'React JS'
+  },
+  {
     projectName: 'FindEvent',
     description: 'FindEvent helps users to search events globally as well as events near them.',
     repository: 'https://github.com/Blaise-Shyaka/FindEvent',

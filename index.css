@@ -18,6 +18,8 @@ body {
   min-height: 80vh;
   max-height: 98vh;
   text-align: center;
+  background-color: #111;
+  z-index: 4;
 }
 
 .introduction h1 {

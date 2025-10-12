@@ -93,6 +93,7 @@ link = "https://dev.to/blaiseshyaka/the-hole-truth-understanding-javascripts-spa
   [caches.images]
     dir = ':cacheDir/images'
 
+# #### This will be revisited. It was ignored due to constraints related to time to market.
 # [menus]
 #   [[menus.main]]
 #     name = "About"

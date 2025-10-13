@@ -72,7 +72,7 @@ github_username = "loremipsum"
 title = "Personal Expenses AI assistant"
 description = "An AI assistant that logs your expenses, categorizes them, and generate reports. Just copy paste your payment confirmation message or email, and you're good to go!"
 tech = "Python, Next.js, Docker, Langgraph, FastAPI"
-image = "/images/projects/consectetur.png"
+image = "/images/personal-expenses.png"
 link = "https://github.com/Blaise-Shyaka/momo-expenses-langraph-ai-agent"
 
 [[params.blogs]]

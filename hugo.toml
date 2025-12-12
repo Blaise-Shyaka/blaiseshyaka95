@@ -15,7 +15,13 @@ canonifyURLs = true
 [params]
 name = "Blaise Pascal SHYAKA"
 location = "Kigali, Rwanda"
-description = "I'm a software engineer with 4+ years of experience. I specialize in building web applications, backend APIs, and AI-powered applications."
+description = """
+I explore the intersection between tech, the humanities, and life sciences.
+
+I've been a software engineer for 4+ years. I specialize in building web and mobile applications. 
+
+I'm currently diving into distributed systems and machine learning.
+"""
 github = "https://github.com/Blaise-Shyaka/"
 github_username = "Blaise-Shyaka"
 email = "blaiseshyaka95@gmail.com"
@@ -76,18 +82,18 @@ image = "/images/personal-expenses.png"
 link = "https://github.com/Blaise-Shyaka/momo-expenses-langraph-ai-agent"
 
 [[params.blogs]]
-title = "Tips for Building Your First Production-Ready Frontend Application: A Developer’s Guide."
-date = "2025-02-09"
-summary = "You’ve been honing your software development skills for a while, and now you want to build something serious. You’re excited, ..."
-tags = ["Frontend", "React.js", "Vue.js"]
-link = "https://medium.com/@blaiseshyaka95/tips-for-building-your-first-production-ready-frontend-application-a-developers-guide-d3c836cab687"
+  title = "Tips for Building Your First Production-Ready Frontend Application: A Developer’s Guide."
+  date = "2025-02-09"
+  summary = "You’ve been honing your software development skills for a while, and now you want to build something serious. You’re excited, ..."
+  tags = ["Frontend", "React.js", "Vue.js"]
+  link = "https://medium.com/@blaiseshyaka95/tips-for-building-your-first-production-ready-frontend-application-a-developers-guide-d3c836cab687"
 
 [[params.blogs]]
-title = "Understanding JavaScript's Sparse Arrays and Unexpected Behaviors."
-date = "2025-01-12"
-summary = "I was recently brushing up on my Data Structures and Algorithms skills, specifically, sorting algorithms; and I found myself in ..."
-tags = ["Javascript", "Arrays"]
-link = "https://dev.to/blaiseshyaka/the-hole-truth-understanding-javascripts-sparse-arrays-and-unexpected-behaviors-fje"
+  title = "Understanding JavaScript's Sparse Arrays and Unexpected Behaviors."
+  date = "2025-01-12"
+  summary = "I was recently brushing up on my Data Structures and Algorithms skills, specifically, sorting algorithms; and I found myself in ..."
+  tags = ["Javascript", "Arrays"]
+  link = "https://dev.to/blaiseshyaka/the-hole-truth-understanding-javascripts-sparse-arrays-and-unexpected-behaviors-fje"
 
 [caches]
   [caches.images]
@@ -115,3 +121,13 @@ link = "https://dev.to/blaiseshyaka/the-hole-truth-understanding-javascripts-spa
 #     name = "Contact Me"
 #     url = "/contact/"
 #     weight = 5
+
+[menus]
+  # [[menus.main]]
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 1
+  [[menus.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 2

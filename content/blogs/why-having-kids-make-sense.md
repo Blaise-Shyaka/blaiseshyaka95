@@ -1,4 +1,9 @@
-# I finally understand why people have children
+---
+title: "I finally understand why people have children"
+name: "i-finally-understand-why-people-have-children"
+date: 2025-12-06T11:16:38+06:00
+tags: [ "Life stories"]
+---
 
 I live in a quite small studio apartment. One day, around 6PM, I heard loud, playful children noises right by my kitchen window. 
 They were peeking by my kitchen window, probably out of curiosity. And then, they saw me. They greeted me with so much enthusiasm. 

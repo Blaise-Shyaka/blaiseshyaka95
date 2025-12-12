@@ -5,7 +5,7 @@ date: 2025-12-06T11:16:38+06:00
 tags: [ "Life stories"]
 ---
 
-I live in a quite small studio apartment. One day, around 6PM, I heard loud, playful children noises right by my kitchen window. 
+I live in a quite small studio. One day, around 6PM, I heard loud, playful children noises right by my kitchen window. 
 They were peeking by my kitchen window, probably out of curiosity. And then, they saw me. They greeted me with so much enthusiasm. 
 They were probably not expecting that someone would be there. Well, I wasn't bothered. I love children a lot! 
 

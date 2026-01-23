@@ -1,0 +1,7 @@
+papers:
+  - title: "Machine learning powered financial credit scoring: a systematic literature review"
+    authors: ["Helmi Ayari", "Pr. Ramzi Guetari", "Pr. Naoufel Kraïem"]
+    description: "A comprehensive synthesis of existing research on ML applications in credit scoring. It evaluates how ML methods address the limitations of traditional approaches and explores their capacity to deliver scalable, reliable, and ethically sound credit decisions."
+    date: "2026-01-23"
+    url: "https://link.springer.com/article/10.1007/s10462-025-11416-2"
+    tags: ["ML", "Credit Scoring"]

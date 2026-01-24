@@ -13,7 +13,7 @@
                 </h3>
             </a>
             {{ if .Summary }}
-            <p class="text-text-secondary-light dark:text-text-secondary-dark mb-4">{{ .Summary }}</p>
+            <p class="text-text-secondary-light dark:text-text-secondary-dark mb-4 summary-clamp">{{ .Summary }}</p>
             {{ end }}
             <div class="flex flex-wrap gap-2">
                 {{ range .Params.tags }}
@@ -26,4 +26,15 @@
         {{ end }}
     </div>
 </div>
+
+<style>
+    .summary-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+
 {{ end }}

@@ -55,6 +55,44 @@
             }
         </style>
         
+        <!-- Tailwind CDN config: define site-wide color tokens used as utility classes -->
+        <script>
+            tailwind = window.tailwind || {};
+            tailwind.config = {
+                darkMode: 'class',
+                theme: {
+                    extend: {
+                        colors: {
+                            text: {
+                                'primary-light': '#111827',
+                                'primary-dark': '#f3f4f6',
+                                'secondary-light': '#4b5563',
+                                'secondary-dark': '#9ca3af',
+                            },
+                            bg: {
+                                'primary-light': '#ffffff',
+                                'primary-dark': '#121212',
+                                'secondary-light': '#f8fafc',
+                                'secondary-dark': '#1f2937',
+                                'tertiary-light': '#f3f4f6',
+                                'tertiary-dark': '#374151',
+                            },
+                            border: {
+                                'primary-light': '#e5e7eb',
+                                'primary-dark': '#374151',
+                                'secondary-light': '#e5e7eb',
+                                'secondary-dark': '#4b5563',
+                            },
+                            accent: {
+                                light: '#0284c7',
+                                dark: '#38bdf8',
+                            },
+                        }
+                    }
+                }
+            };
+        </script>
+
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         <script>

@@ -1,0 +1,16 @@
+bookmarks:
+  - title: "Deep-learning model predicts how fruit flies form, cell by cell"
+    url: "https://news.mit.edu/2025/deep-learning-model-predicts-how-fruit-flies-form-1215"
+    description: "A novel approach that could help identify diseases early."
+    date: "2026-01-24"
+    tags: ["Biology", "ML"]
+  - title: "Symmetries between AI and bioengineering the agential material of life"
+    url: "https://www.youtube.com/watch?v=jhjID2aAf_I"
+    description: "Explores how biological matter is not just mechanical. It is agential and has innate problem-solving/intelligence capabilities."
+    date: "2026-01-23"
+    tags: ["AI", "Bioengineering", "Xenobots"]
+  - title: "Five Models for Making Sense of Complex Systems"
+    url: "https://cwodtke.medium.com/five-models-for-making-sense-of-complex-systems-134be897b6b3"
+    description: "It explores different models on how to approach and break down complex ideas/systems"
+    date: "2025-12-08"
+    tags: ["Learning", "Complex Systems"]

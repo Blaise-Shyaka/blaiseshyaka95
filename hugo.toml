@@ -16,11 +16,11 @@ canonifyURLs = true
 name = "Blaise Pascal SHYAKA"
 location = "Kigali, Rwanda"
 description = """
-I explore the intersection between tech, the humanities, and life sciences.
+I've been a software engineer for 4+ years. I specialize in web and mobile applications.
 
-I've been a software engineer for 4+ years. I specialize in building web and mobile applications. 
+I do Frontend, Backend, and a little bit of infra. My stack is mainly Typescript (Node.js/React), Python/FastAPI, and Golang.
 
-I'm currently diving into distributed systems and machine learning.
+Here, I write about what I'm working on, share helpful resources I find along the way, and a sprinkle of my life experiences.
 """
 github = "https://github.com/Blaise-Shyaka/"
 github_username = "Blaise-Shyaka"
@@ -128,6 +128,18 @@ link = "https://github.com/Blaise-Shyaka/momo-expenses-langraph-ai-agent"
   #   url = "/about/"
   #   weight = 1
   [[menus.main]]
-    name = "Blogs"
-    url = "/blogs/"
+    name = "Blog"
+    url = "/blog/"
     weight = 2
+  [[menus.main]]
+    name = "Bookmarks"
+    url = "/bookmarks/"
+    weight = 3
+  [[menus.main]]
+    name = "Papers"
+    url = "/papers/"
+    weight = 4
+  [[menus.main]]
+    name = "Life Stories"
+    url = "/life-stories/"
+    weight = 5

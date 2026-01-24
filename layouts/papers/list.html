@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
+    {{ $papersData := site.Data.papers }}
+    {{ with $papersData.papers }}
+    <div class="space-y-12 max-w-3xl mx-auto">
+        {{ range . }}
+        <div class="group">
+            <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm mb-2">{{ .date }}</p>
+            <a href="{{ .url }}" class="block" target="_blank" rel="noopener noreferrer">
+                <h3 class="inline-flex items-center text-xl font-medium text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200 mb-3">
+                    {{ .title }}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 opacity-70 group-hover:opacity-100 transition-opacity duration-200">
+                        <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                    </svg>
+                </h3>
+            </a>
+            {{ if .authors }}
+            <p class="text-sm text-text-secondary-light dark:text-text-secondary-dark mb-2">
+                <strong>Authors:</strong> {{ delimit .authors ", " }}
+            </p>
+            {{ end }}
+            {{ if .description }}
+            <p class="text-text-secondary-light dark:text-text-secondary-dark mb-4">{{ .description }}</p>
+            {{ end }}
+            {{ if .tags }}
+            <div class="flex flex-wrap gap-2">
+                {{ range .tags }}
+                <span class="px-2 py-1 text-xs bg-bg-primary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-primary-light dark:border-border-primary-dark rounded-md transition-all duration-300">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ else }}
+    <p class="text-text-secondary-light dark:text-text-secondary-dark">No papers yet. Add some to data/papers.yaml!</p>
+    {{ end }}
+</div>
+{{ end }}

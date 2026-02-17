@@ -1,4 +1,9 @@
 bookmarks:
+  - title: "A Guide to the Terminal, Console, and Shell"
+    url: "https://thevaluable.dev/guide-terminal-shell-console"
+    description: "Discusses the history of early computer inputs, and how we evolved to today's terminal emulators."
+    date: "2026-02-17"
+    tags: ["Software Engineering"]
   - title: "Unexpected benefits of going local-first"
     url: "https://www.youtube.com/watch?v=VLgmjzERT08"
     description: "Linear used a local-first architecture to improve performance for end users. Unexpectedly, we got something even better: the ability to ship much faster than with conventional architectures."

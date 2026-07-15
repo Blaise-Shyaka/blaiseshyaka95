@@ -16,11 +16,9 @@ canonifyURLs = true
 name = "Blaise Pascal SHYAKA"
 location = "Kigali, Rwanda"
 description = """
-I've been a software engineer for 4+ years. I specialize in web and mobile applications.
+Software engineer working on distributed systems, Kubernetes, object storage for media, chat systems, and AI agents. 
 
-I do Frontend, Backend, and a little bit of infra. My stack is mainly Typescript (Node.js/React), Python/FastAPI, and Golang.
-
-Here, I write about what I'm working on, share helpful resources I find along the way, and a sprinkle of my life experiences.
+Outside of that, I'm drawn to the computational side of cancer genomics; a subject that became personal after losing family members to it. I write about both here.
 """
 github = "https://github.com/Blaise-Shyaka/"
 github_username = "Blaise-Shyaka"
@@ -86,14 +84,14 @@ link = "https://github.com/Blaise-Shyaka/momo-expenses-langraph-ai-agent"
   date = "2025-02-09"
   summary = "You’ve been honing your software development skills for a while, and now you want to build something serious. You’re excited, ..."
   tags = ["Frontend", "React.js", "Vue.js"]
-  link = "https://medium.com/@blaiseshyaka95/tips-for-building-your-first-production-ready-frontend-application-a-developers-guide-d3c836cab687"
+  link = "https://www.blaiseshyaka.com/blog/tips-for-building-production-ready-frontend-application/"
 
 [[params.blogs]]
   title = "Understanding JavaScript's Sparse Arrays and Unexpected Behaviors."
   date = "2025-01-12"
   summary = "I was recently brushing up on my Data Structures and Algorithms skills, specifically, sorting algorithms; and I found myself in ..."
   tags = ["Javascript", "Arrays"]
-  link = "https://dev.to/blaiseshyaka/the-hole-truth-understanding-javascripts-sparse-arrays-and-unexpected-behaviors-fje"
+  link = "https://www.blaiseshyaka.com/blog/understanding-sparse-arrays-in-js/"
 
 [caches]
   [caches.images]

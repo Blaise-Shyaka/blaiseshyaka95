@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
-<div class="w-full md:w-4/5 lg:w-3/5 mx-auto px-14 py-12">
+<div class="w-full md:w-4/5 lg:w-3/5 mx-auto px-4 md:px-14 py-12">
     <!-- Hero Section -->
     {{ $authorData := index site.Data .Language.Lang "author" }}
     {{ $author := cond (and $authorData $authorData.author) $authorData.author site.Params }}
@@ -11,12 +11,12 @@
     <section class="mb-16">
         <div class="max-w-3xl ml-0 p-4 pb-2 border border-border-primary-light dark:border-border-primary-dark rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark shadow-lg relative">
             <div class="text-left">
-                <h1 class="text-4xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .name }}</h1>
-                <p class="text-gray-400 mb-3 flex items-center text-xl">
+                <h1 class="text-2xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .name }}</h1>
+                <p class="text-gray-400 mb-3 flex items-center text-base">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-400" width="24" height="24" viewBox="-7 -2 24 24"><path fill="currentColor" d="M4 9.9A5.002 5.002 0 0 1 5 0a5 5 0 0 1 1 9.9V19a1 1 0 0 1-2 0V9.9zM5 8a3 3 0 1 0 0-6a3 3 0 0 0 0 6z"/></svg>
                     {{ .location }}
                 </p>
-                <p class="text-xl mb-6 text-text-primary-light dark:text-text-primary-dark">{{ .description | replaceRE "\n\n+" "<br><br>" | safeHTML }}</p>
+                <p class="mb-6 text-text-primary-light dark:text-text-primary-dark">{{ .description | replaceRE "\n\n+" "<br><br>" | safeHTML }}</p>
             </div>
             <!-- Social Icons - Moved to bottom for mobile -->
             <div class="mt-8 md:mt-0 flex flex-wrap justify-center gap-3 md:absolute md:top-4 md:right-4 md:flex-nowrap md:justify-end md:mt-0">
@@ -50,7 +50,7 @@
 
     <!-- tech stack here -->
     <section class="mb-20">
-        <h2 class="text-4xl font-bold mb-2 relative">{{ T "whatIWorkWith" }}</h2>
+        <h2 class="text-xl font-bold mb-2 relative">{{ T "whatIWorkWith" }}</h2>
         <div class="tech-carousel">
             <!-- Row 1 - Forward animation -->
             <div class="carousel-container">
@@ -133,11 +133,11 @@
     {{ with $projects }}
     <section class="mt-12 md:mt-20 mb-12 md:mb-20">
         <div class="flex justify-between items-center mb-6 md:mb-8">
-            <h2 class="text-2xl md:text-4xl font-bold">{{ T "projectsTitle" }}</h2>
+            <h2 class="text-xl md:text-2xl font-bold">{{ T "projectsTitle" }}</h2>
         </div>
         <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
             {{ range first 2 . }}
-            <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+            <div class="project-card relative overflow-hidden rounded-lg bg-[#0d1117] border border-gray-700 transition-all duration-300 group">
                 <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
                     <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
                     <img src="{{ .image }}" alt="{{ .title }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -178,7 +178,7 @@
     {{ with $blogs }}
     <section class="mt-20 mb-20">
         <div class="flex justify-between items-center mb-8">
-            <h2 class="text-4xl font-bold">{{ T "blogsTitle" }}</h2>
+            <h2 class="text-xl font-bold">{{ T "blogsTitle" }}</h2>
         </div>
         <div class="space-y-8 max-w-3xl mx-auto">
             {{ range first 3 . }}
